@@ -1,0 +1,32 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+.mj{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 140px;
+  background-color: #036;
+  padding: 0;
+  margin: 0;
+}
+.mj h2{
+  text-align: center;
+  color: aliceblue;
+  transform: rotate(4deg);
+  margin-top: 30px;
+}
+.num{
+  width: 100%;
+  height: 80px;
+  background-color: #0266b6;
+   text-align: center; 
+}
+.num span{
+  font-weight: 100;
+  font-size: 1.6rem;
+  color: #fff;
+   
+}
