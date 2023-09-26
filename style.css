@@ -1,70 +1,81 @@
-body{
-  padding: 0;
-  margin: 0;
-  
-}
-.mj{
+ body{
+  background-color: rgb(191, 244, 191);
   position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 140px;
-  background-color: #036;
-  padding: 0;
-  margin: 0;
-}
-.mj h2{
-  text-align: center;
-  color: aliceblue;
-  transform: rotate(4deg);
-  margin-top: 30px;
-}
-.num{
-  width: 100%;
-  height: 80px;
-  background-color: #0266b6;
-   text-align: center; 
-}
-.num span{
-  font-weight: 100;
-  font-size: 1.6rem;
-  color: #fff;
-   
-}
-/* foto */
-.fot{
-  width: 100%;
-  height: 260px;
-  background-image: url(https://lagunalawnservice.com/img/galeria12.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 100%;
+  margin-left: 0;
+  margin-right: 0;
  
 }
-/* foto */
-.header{
-  background-color: #299684;
+#caj{
+  background-color:#0366d6;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.4rem;
+ 
 }
-.header ul{
+h1{
+  color: #fff;
+  letter-spacing: 3px;
+  padding: 10px 10px;
+  text-align: center;
+}
+#caj1{
   position: relative;
   overflow: hidden;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-
+  background-color: #53f486;
+   width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.4rem;
+   
 }
-li{
-  float: left;
+h2{
+  color: #154256;
+letter-spacing: 3px;
+  padding: 10px 10px;
+  text-align: center;
+  font-weight:bold;
 }
-li a{
-  text-decoration: none;
-  color: #036;
-  font-size: 1.6rem;
-  padding: 16px 16px;
-  display: block;
+#caj2{
+  background-color: #154256;
+  position: relative;
+  border-radius: 0.4rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
-li a:hover{
-  transition: all 1s;
-  background-color: #fff;
-  color: #036;
-  border-bottom: 3px solid #299684;
+p{
+  padding: 20px 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+#caj3{
+   width: 90%;
+   height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.4rem;
+}
+#caj3 img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+.pie{
+  width: 100%;
+  height: 120px;
+  background-color: #04aa6d;
+  margin-top: 60px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.pie p{
+  color: rgb(10, 15, 15);
+  font-weight: 800;
+}
+.pie span{
+  color: #154256;
+  text-align: center;
 }
