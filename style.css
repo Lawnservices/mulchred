@@ -5,9 +5,13 @@
   margin-right: 0;
  
 }
+
 .foto img{
   margin-left: 20px;
+  
+
 }
+ 
 .foto a{
   margin-left: 10px;
   text-decoration: none;
@@ -19,7 +23,11 @@
   border-radius: 4px;
   
 }
- 
+.foto a:hover{
+  color: #154256;
+  background-color: #fff;
+  animation: 0.3s;
+}
 #caj{
   background-color:#0366d6;
   width: 90%;
@@ -42,7 +50,7 @@ h1{
   margin-left: auto;
   margin-right: auto;
   border-radius: 6px;
-   
+  box-shadow: 0 3px 6px rgba(0,0,0,.4);
   padding-left: 32px;
   padding-right: 32px;
 
