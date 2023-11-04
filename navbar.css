@@ -43,7 +43,7 @@ html{
 
         /* Cambiar el color de los enlaces al pasar el ratón por encima */
         .navbar a:hover {
-            background-color: #ddd;
+            
             color: black;
         }
          @media screen and (max-width: 600px) {
