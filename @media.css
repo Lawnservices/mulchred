@@ -1,0 +1,9 @@
+@media (min-width:300px) and (max-width:860px) {
+  #telefono{
+    color: red;
+    font-size: 24px;
+  }
+  .titulo{
+    color: rgba(207, 247, 237, 0.8);
+  }
+}
