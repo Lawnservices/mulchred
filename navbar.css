@@ -34,10 +34,7 @@ html{
             background-color: #333;
         }
 
-        /* Estilos para los enlaces de navegación */
-       
-
-        /* Cambiar el color de los enlaces al pasar el ratón por encima */
+        
         .navbar a:hover {
             
             color: black;
