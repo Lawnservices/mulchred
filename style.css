@@ -89,6 +89,7 @@ font-family: 'Kalnia', serif;
 .image img {
     max-width: 100%;
     height: auto;
+    border-radius: .2rem;
 }
 .text{
   width: 80%;
