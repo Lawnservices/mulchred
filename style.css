@@ -98,6 +98,7 @@ font-family: 'Kalnia', serif;
   margin-top: 30px;
 }
 .text span{
+padding:6px;  
 color: #154256;
 font-size: 20px;
 font-weight: bold;
@@ -120,6 +121,7 @@ font-family: 'Kalnia', serif;
 .pie p{
   color: rgb(10, 15, 15);
   font-weight: 800;
+  padding: 12px;
 }
 .pie span{
   color: #154256;

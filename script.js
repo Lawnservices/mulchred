@@ -13,6 +13,8 @@ window.addEventListener('click',function(){
   titulo.style.color = 'green';
 });
 
-  
-
+let fecha = new Date();
+let mensaje = "Mulchred. All Rights Reserved.";
+let foto = '©';  
+document.getElementById('fecha').textContent = foto + ' ' + fecha.getFullYear() + ' ' + mensaje;
 });
