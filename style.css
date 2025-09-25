@@ -26,7 +26,39 @@
   width: 100%;
    
 }
+/* services */
+.lista{
+  margin-top: 20px;
+color: #04aa6d;
+}
+ #servicios {
+margin-top: 26px;
+  display: grid;
+  grid-template-columns: 1fr;  
+  gap: 16px; 
+  width: 90%;
+  margin: auto;
+}
+#servicios p{
+color: #003349;
+font-size: 22px;
+text-transform: uppercase;
+padding: 6px;
+}
  
+@media (min-width: 600px) {
+  #servicios {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+ 
+@media (min-width: 1024px) {
+  #servicios {
+    grid-template-columns: 1fr 1fr 1fr;  
+  }
+}
+
 h1{
   color: #ffff;
   letter-spacing: 3px;
