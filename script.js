@@ -1,10 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
- setInterval(() => {
-  document.getElementById('navbar');
-  navbar.style.color = 'green';
-  document.getElementById('call');
-  call.style.color = 'tomato';
- },6000);
+ 
 
 window.addEventListener('click',function(){
  document.getElementById('telefono');
@@ -17,4 +12,15 @@ let fecha = new Date();
 let mensaje = "Mulchred. All Rights Reserved.";
 let foto = '©';  
 document.getElementById('fecha').textContent = foto + ' ' + fecha.getFullYear() + ' ' + mensaje;
+
+const app = Vue.createApp({
+  data() {
+    return {
+      titulo: "Miguel Lawn Services",
+      descripcion: "I WOULD LOVE TO FIX YOUR GARDEN.."
+    }
+  }
+})
+
+app.mount('#app')
 });

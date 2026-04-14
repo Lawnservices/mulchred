@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <title>Let’s Work Together</title>
   <meta name="google-site-verification" content="i2YRAi-CbfJjytN0dM-981BGklTZl7QD1J-9qMTL58Y" />
   <meta name="description" content="We have the service of cutting the grass and trimming the bushes and we keep it very green and clean. Call us for a quote. Thank you.">
@@ -19,6 +20,12 @@
 </head>
  
 <body>
+     <div id="app">
+  <section class="hero">
+    <h1>{{ titulo }}</h1>
+    <p>{{ descripcion }}</p>
+  </section>
+</div>
   <nav class="nav-bar navbar"  >
 <ul>
   <li>
@@ -44,7 +51,7 @@
   
  
    <div id="caj">
-   <h1 class="titulo" id="titulo">Having good results will replace the way we care for your garden.</h1>
+   <h1 class="titulo" id="titulo">the time to put down new mulch</h1>
   </div>
   <div class="mensajes">
     <script type="text/javascript">
@@ -106,7 +113,7 @@
     <p>THE BEST PRICES IN THE AREA.</p>
     <span id="fecha"> </span>
   </footer>
-
+   
   <script src="script.js"></script>
 </body>
 
